@@ -25,12 +25,12 @@ public class splash extends Activity {
 				// TODO Auto-generated method stub
 				try {
 					while(cont<100){
-						sleep(30);
+						sleep(10);
 						cont++;
 						pb.setProgress(cont);
 					}
 					abrirMenu();
-					this.stop();
+					
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

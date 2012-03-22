@@ -3,17 +3,14 @@ package com.heli.clase;
 
 import android.app.ListActivity;
 import android.content.Intent;
-import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
 
 public class Menu extends ListActivity  {
-	String opciones[]={"Cronometro.","Temporizador."};
+	String opciones[]={"Cronometro.","Temporizador.","Vueltas."};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
